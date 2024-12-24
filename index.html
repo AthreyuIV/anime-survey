@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container-one">
+        <h1 id="title">Anime Survey</h1>
+        <p id="description">
+            My first freeCodeCamp project.
+        </p>
+    </div>
+
+    <div class="container-two">
+
+        <form id="survey-form">
+            <div class="label-container">
+                <label for="name" id="name-label">Name</label>
+            </div>
+            <input id="name" type="text" placeholder="e.g. Billy Madison" required>
+            <div class="label-container">
+                <label for="email" id="email-label">Email</label>
+            </div>
+            <input id="email" type="email" placeholder="penguin@gmail.com" required>
+            <div class="label-container">
+                <label for="number" id="number-label">Age</label>
+            </div>
+            <input id="number" type="number" min="18" max="120" placeholder="21" required>
+            <hr>
+            <div class="label-container">
+                <label for="dropdown" id="dropdown-label">What skills do you have?</label>
+            </div>
+            <br>
+            <select id="dropdown">
+                <option>Nunchuck Skills</option>
+                <option>Bow Hunting Skills</option>
+                <option>Computer Hacking Skills</option>
+            </select>
+            <hr>
+            <br>
+            <div class="radio-container">
+                <label for="watch" id="radio-label">How do you usually watch anime?</label>
+            </div>
+            <br>
+            <input id="watch" type="radio" name="watch" value="crunchy">
+            CrunchyRoll
+            <br>
+            <input id="watch" type="radio" name="watch" value="disney">
+            Disney+
+            <br>
+            <input id="watch" type="radio" name="watch" value="hulu">
+            Hulu
+            <br>
+            <input id="watch" type="radio" name="watch" value="prime">
+            Amazon Prime
+            <br>
+            <input id="watch" type="radio" name="watch" value="other">
+            Other
+            <br>
+            <hr>
+            <div class="label-container">
+                <label for="favorite" id="checkbox-label">What're some of your favorite anime?</label>
+            </div>
+            <br>
+            <input type="checkbox" id="favorite" value="blackclover">
+            Black Clover
+            <br>
+            <input type="checkbox" id="favorite" value="bleach">
+            Bleach
+            <br>
+            <input type="checkbox" id="favorite" value="deathnote">
+            Death Note
+            <br>
+            <input type="checkbox" id="favorite" value="attack">
+            Attack on Titan
+            <br>
+            <input type="checkbox" id="favorite" value="myhero">
+            My Hero Academia
+            <br>
+            <input type="checkbox" id="favorite" value="naruto">
+            Naruto: Shippuden
+            <br>
+            <input type="checkbox" id="favorite" value="demonslayer">
+            Demon Slayer: Kimetsu no Yaiba
+            <br>
+            <input type="checkbox" id="favorite" value="jujukaizen">
+            Jujutsu Kaisen
+            <br>
+            <input type="checkbox" id="favorite" value="hunterx">
+            Hunter x Hunter
+            <br>
+            <input type="checkbox" id="favorite" value="onepunch">
+            One Punch Man
+            <br>
+            <input type="checkbox" id="favorite" value="kenshin">
+            Ruroni Kenshin
+            <br>
+            <input type="checkbox" id="favorite" value="fairytail">
+            Fairy Tail
+            <br>
+            <hr>
+            <div class="label-container">
+                <label id="textarea-label">Anything you would like to add?</label>
+            </div>
+            <br>
+            <textarea id="additonal">
+        </textarea>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>
